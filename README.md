@@ -2,26 +2,26 @@ Welcome to my Linux command documentation! This repository contains all the esse
 
 ## Table of Contents
 
-| Section | Description |
-|---------|-------------|
-| [Basic Questions On Linux](#basic-questions-on-linux) | Fundamental Linux concepts and questions. |
-| [Important Directories In Linux](#important-directories-in-linux) | Overview of key directories in Linux. |
-| [User Information](#user-information) | Commands for managing user information. |
-| [File And Directory Commands](#file-and-directory-commands) | Commands for file and directory management. |
-| [File Permissions](#file-permissions) | Understanding and managing file permissions. |
-| [Search And Replace](#search-and-replace) | Tools for searching and replacing text. |
-| [Networking Commands](#networking-commands) | Essential networking commands. |
-| [Sudo and Installing Packages](#sudo-and-installing-packages) | Managing packages and using sudo. |
-| [System And Hardware Information](#system-and-hardware-information) | Commands for system and hardware info. |
-| [Disk Usage](#disk-usage) | Checking disk usage. |
-| [Users And Groups](#users-and-groups) | Managing users and groups. |
-| [Services And Process Management](#services-and-process-management) | Managing services and processes. |
-| [Archiving And Unzipping Files](#archiving-and-unzipping-files) | Commands for archiving and unzipping. |
-| [SSH Commands](#ssh-commands) | Secure Shell commands. |
-| [Vi/Vim Commands](#vi-vim-commands) | Text editing with Vi/Vim. |
-| [History Command](#history-command) | Using the history command. |
-| [Curl Command](#curl-command) | Data transfer with curl. |
-| [Note From Me](#note-from-me) | Personal note and contributions. |
+| # | Section | Description |
+|---|---------|-------------|
+| 1 | [Basic Questions On Linux](#basic-questions-on-linux) | Fundamental Linux concepts and questions. |
+| 2 | [Important Directories In Linux](#important-directories-in-linux) | Overview of key directories in Linux. |
+| 3 | [User Information](#user-information) | Commands for managing user information. |
+| 4 | [File And Directory Commands](#file-and-directory-commands) | Commands for file and directory management. |
+| 5 | [File Permissions](#file-permissions) | Understanding and managing file permissions. |
+| 6 | [Search And Replace](#search-and-replace) | Tools for searching and replacing text. |
+| 7 | [Networking Commands](#networking-commands) | Essential networking commands. |
+| 8 | [Sudo and Installing Packages](#sudo-and-installing-packages) | Managing packages and using sudo. |
+| 9 | [System And Hardware Information](#system-and-hardware-information) | Commands for system and hardware info. |
+| 10 | [Disk Usage](#disk-usage) | Checking disk usage. |
+| 11 | [Users And Groups](#users-and-groups) | Managing users and groups. |
+| 12 | [Services And Process Management](#services-and-process-management) | Managing services and processes. |
+| 13 | [Archiving And Unzipping Files](#archiving-and-unzipping-files) | Commands for archiving and unzipping. |
+| 14 | [SSH Commands](#ssh-commands) | Secure Shell commands. |
+| 15 | [Vi/Vim Commands](#vi-vim-commands) | Text editing with Vi/Vim. |
+| 16 | [History Command](#history-command) | Using the history command. |
+| 17 | [Curl Command](#curl-command) | Data transfer with curl. |
+| 18 | [Note From Me ❤](#note-from-me) | Personal note and contributions. |
 
 ## Basic Questions on Linux
 
@@ -353,6 +353,8 @@ Permissions are indicated by:
 - `w` = write permission
 - `x` = execute permission
 - `-` = no permission
+
+The above authorization levels represented in a diagram format
 
 ![File Permissions](images/filepermission.png)
 
@@ -1395,7 +1397,7 @@ Curl is a command-line tool for transferring data to or from a server, supportin
   wget -c http://example.com/file.zip
   ```
 
-## Note From Me
+## Note From Me ❤
 
 I hope this documentation has been helpful in starting your Linux journey. All these commands and descriptions
 are from my personal learning experiences. If you have any suggestions or improvements, Pull Requests are highly
