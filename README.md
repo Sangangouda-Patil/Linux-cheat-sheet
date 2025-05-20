@@ -1,4 +1,5 @@
 Welcome to my Linux command documentation! This repository contains all the essential Linux commands I've learned so far during my DevOps journey. I'll keep adding new commands and their explanations as I continue to learn and explore more about Linux.
+🚀 If you find the project useful, give it a ⭐! Pull requests are always welcome. For more tech insights, follow me @Sangangouda-Patil. Let's build together! 💻
 
 ## Table of Contents
 
