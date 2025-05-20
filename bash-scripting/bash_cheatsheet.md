@@ -78,6 +78,77 @@
        echo "File not found"
    fi
    ```
+3.**Inline If Statements**
+
+```bash
+#!/bin/bash
+
+[[ $USER = 'rehan' ]] && echo 'yes' || echo 'no'
+```
+
+4. **While Condition**
+
+```bash
+#!/bin/bash
+
+declare -i counter
+counter=10
+while [ $counter -gt 2 ]; do
+  echo The counter is $counter
+  counter=counter-1
+done
+```
+4.**Positional Arguments**
+
+   ```bash
+   echo "Script name: $0"
+   echo "First arg: $1"
+   ```
+
+5. **Case Statements**
+```bash
+#!/bin/bash
+
+echo "What's the weather like tomorrow?"
+read weather
+
+case $weather in
+  sunny | warm ) echo "Nice weather: " $weather
+  ;;
+  cloudy | cool ) echo "Not bad weather: " $weather
+  ;;
+  rainy | cold ) echo "Terrible weather: " $weather
+  ;;
+  * ) echo "Don't understand"
+  ;;
+esac
+```
+
+### Boolean Operators
+
+- **$foo** - Is true
+- **!$foo** - Is false
+
+### Numeric Operators
+
+- **-eq** - Equals
+- **-ne** - Not equals
+- **-gt** - Greater than
+- **-ge** - Greater than or equal to
+- **-lt** - Less than
+- **-le** - Less than or equal to
+- **-e foo.txt** - Check file exists
+- **-z foo** - Check if variable exists
+
+### String Operators
+
+- **=** - Equals
+- **==** - Equals
+- **-z** - Is null
+- **-n** - Is not null
+- **<** - Is less than in ASCII alphabetical order
+- **>** - Is greater than in ASCII alphabetical order
+```
 
 ## Variables and Arguments
 
@@ -88,12 +159,6 @@
    echo "Hello $NAME"
    ```
 
-2. **Positional Arguments**
-
-   ```bash
-   echo "Script name: $0"
-   echo "First arg: $1"
-   ```
 
 ## Date and Time
 
@@ -269,3 +334,15 @@
    exit 0    # Successful exit
    exit 1    # Failure exit
    ```
+
+
+
+
+
+
+
+
+
+
+
+
